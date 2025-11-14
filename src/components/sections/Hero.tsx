@@ -10,12 +10,13 @@ const Hero = async () => {
     (product: TVSType) => product.tags?.includes('main')
   );
 
+  // console.log(filteredProducts)
   // If no main product found → don't crash
   if (!filteredProducts) {
     return (
       <section className="bg-black text-white py-20 text-center">
         <h2 className="text-3xl font-bold">Main Product Not Found</h2>
-        <p className="text-gray-400 mt-2">Please add a product with tag "main".</p>
+        <p className="text-gray-400 mt-2">Please add a product with tag main.</p>
       </section>
     );
   }
