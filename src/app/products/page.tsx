@@ -9,7 +9,7 @@ import { IoIosArrowUp } from "react-icons/io";
 import { VscSettings } from "react-icons/vsc";
 import { RxCross2 } from "react-icons/rx";
 
-const page = () => {
+const Page = () => {
   const [selectedBrands, setSelectedBrands] = useState<string[]>([]);
   const [data, setData] = useState<TVSType[]>()
   const [IsOpen, setIsOpen] = useState('brands')
@@ -125,4 +125,4 @@ const page = () => {
   )
 }
 
-export default page
+export default Page
