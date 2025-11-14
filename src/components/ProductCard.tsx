@@ -1,5 +1,5 @@
 import Image from 'next/image'
-import React, { useEffect, useState } from 'react'
+import React from 'react'
 import WishListComponent from './WishListComponent'
 import { TVSType } from '@/data/data'
 import Link from 'next/link'

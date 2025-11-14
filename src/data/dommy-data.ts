@@ -41,7 +41,7 @@ const S40Tside_view = "https://media.us.lg.com/transform/ecomm-PDPGalleryThumbna
 const S40Tdimensional_view = "https://media.us.lg.com/transform/ecomm-PDPGallery-1100x730/21c3a578-ef80-4729-83d9-7096e384fe3d/AV_S40T_gallery_4_2048x2048?io=transform:fill,width:596";
 const S40Trear_view = "https://media.us.lg.com/transform/ecomm-PDPGalleryThumbnail-350x350/fdace978-6418-48ca-bf03-a594965a8773/AV_S40T_gallery_8_2048x1152?io=transform:fill,width:94";
 
-[
+const data =  [
   {
     "id": 1025,
     "title": "LG 100\" QNED evo AI QNED86 4K Mini-LED Smart TV (2025)",

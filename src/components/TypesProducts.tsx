@@ -1,7 +1,6 @@
 import Image from "next/image";
 import React from "react";
 import samsung2 from '@/images/samsung3.webp'
-import tcl from '@/images/tcl.webp'
 import lg from '@/images/images.png'
 import samsungPhone from '@/images/samsungphone.jpg'
 const TypesProducts = () => {

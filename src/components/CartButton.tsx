@@ -2,7 +2,7 @@
 import { ToastContainer, toast } from 'react-toastify';
 
 import React, { useEffect, useState } from "react";
-import { TbShoppingBagCheck } from "react-icons/tb";
+// import { TbShoppingBagCheck } from "react-icons/tb";
 
 interface Props {
   id: string;
@@ -45,17 +45,17 @@ const CartButton = ({ id, size, price }: Props) => {
     toast.success('Product has been added to cart', {autoClose: 2000, theme: 'dark'})
   };
   
-  const delCart = (id: string) => {
-    const updatedCart = cart.filter((item) => item.id !== id);
-    setCart(updatedCart);
-    if(updatedCart.length === 0){
-      localStorage.setItem("cartItem", JSON.stringify([]));
-    }
+  // const delCart = (id: string) => {
+  //   const updatedCart = cart.filter((item) => item.id !== id);
+  //   setCart(updatedCart);
+  //   if(updatedCart.length === 0){
+  //     localStorage.setItem("cartItem", JSON.stringify([]));
+  //   }
     
-    toast.success('Product has been removed from cart', {autoClose: 2000, theme: 'light'})
-  };
+  //   toast.success('Product has been removed from cart', {autoClose: 2000, theme: 'light'})
+  // };
 
-  const isInCart = cart.some((item) => item.id === id);
+  // const isInCart = cart.some((item) => item.id === id);
 
   return (
     <>

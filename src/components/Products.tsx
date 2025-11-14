@@ -5,7 +5,7 @@ import { getProducts } from '@/lib/getProducts';
 import ProductCard from './ProductCard';
 import Link from 'next/link';
 
-const Products = ({tag}: any) => {
+const Products = ({tag}:{tag:string}) => {
   const [TVS, setTVS] = useState<TVSType[]>()  
   // const [fav, setFav] = useState<number[]>([])
   

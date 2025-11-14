@@ -23,7 +23,7 @@ const WishListComponent = ({ id, from }: { id: number; from: string }) => {
   };
 
   const delFavorite = (id: number) => {
-    let favorite = fav.filter((faID) => id !== faID);
+    const favorite = fav.filter((faID) => id !== faID);
     setFav(favorite);
     if (favorite.length === 0) {
       localStorage.removeItem("favorite");
