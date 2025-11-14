@@ -10,27 +10,11 @@ import { VscSettings } from "react-icons/vsc";
 import { RxCross2 } from "react-icons/rx";
 
 const page = () => {
-  const brands = [
-    'Samsung',
-    'LG',
-    'TCL',
-  ]
-  const productsType = ['Sound System', 'TV', 'Washing Machine', 'Refrigerator', 'Smart Phones']
   const [selectedBrands, setSelectedBrands] = useState<string[]>([]);
   const [data, setData] = useState<TVSType[]>()
   const [IsOpen, setIsOpen] = useState('brands')
   const [IsFilterOpen, setIsFilterOpen] = useState(false)
-  const onClickFilter = (item:string) =>{
-    if(selectedBrands.includes(item.toLowerCase())){
-      const filteredItems = selectedBrands.filter((brand) => brand !== item.toLowerCase());
-      setSelectedBrands(filteredItems);
-      console.log(filteredItems, 1, item)
 
-    }else{
-      setSelectedBrands([...selectedBrands, item.toLowerCase()]);
-      console.log(selectedBrands, 2, item)
-    }
-  }
   useEffect(() => {
     
       const fetchData = async () => {
@@ -44,6 +28,23 @@ const page = () => {
       
       fetchData();
   }, [])
+  const brands = [
+    'Samsung',
+    'LG',
+    'TCL',
+  ]
+  const productsType = ['Sound System', 'TV', 'Washing Machine', 'Refrigerator', 'Smart Phones']
+  const onClickFilter = (item:string) =>{
+    if(selectedBrands.includes(item.toLowerCase())){
+      const filteredItems = selectedBrands.filter((brand) => brand !== item.toLowerCase());
+      setSelectedBrands(filteredItems);
+      console.log(filteredItems, 1, item)
+
+    }else{
+      setSelectedBrands([...selectedBrands, item.toLowerCase()]);
+      console.log(selectedBrands, 2, item)
+    }
+  }
   const filteredTVs =
   selectedBrands.length === 0
     ? data

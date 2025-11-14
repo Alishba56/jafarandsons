@@ -11,9 +11,15 @@ const parsePrice = (price: string) => {
   return Number(price.replace(/[^0-9.-]+/g, ""));
 };
 
+export interface CartType {
+  id: string;
+price:string;
+quantity:number
+size: string
+}
 const Page = () => {
   const [cart, setCart] = useState<
-    { id: string; price: string; size: string; quantity: number }[]
+    CartType[]
   >([]);
   const [products, setProducts] = useState<TVSType[]>([]);
 
@@ -21,7 +27,7 @@ const Page = () => {
   useEffect(() => {
     const storedCart = localStorage.getItem("cartItem");
     if (storedCart) {
-      const parsed = JSON.parse(storedCart).map((item: any) => ({
+      const parsed = JSON.parse(storedCart).map((item:CartType ) => ({
         ...item,
         quantity: item.quantity || 1,
       }));

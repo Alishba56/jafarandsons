@@ -6,6 +6,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { useEffect, useState } from "react";
 import { toast } from "react-toastify";
+import { CartType } from "../cart/page";
 
 const parsePrice = (price: string) => Number(price.replace(/[^0-9.-]+/g, ""));
 
@@ -26,7 +27,7 @@ const CheckoutPage = () => {
   useEffect(() => {
     const stored = localStorage.getItem("cartItem");
     if (stored) {
-      const parsed = JSON.parse(stored).map((i: any) => ({ ...i, quantity: i.quantity || 1 }));
+      const parsed = JSON.parse(stored).map((i: CartType) => ({ ...i, quantity: i.quantity || 1 }));
       setCart(parsed);
     }
   }, []);
