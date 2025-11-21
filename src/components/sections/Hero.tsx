@@ -4,8 +4,8 @@ import Image from 'next/image'
 import { getProducts } from '@/lib/getProducts';
 import Link from 'next/link';
 import { TVSType } from '@/data/data';
-import BrandTicker from '../silder';
-import TopProducts from '../TopProducts';
+// import BrandTicker from '../silder';
+// import TopProducts from '../TopProducts';
 const Hero = async() => {
   const TVS = await getProducts();
   const filteredProducts = TVS.message.filter((product:TVSType) => product.tags.includes('main'))[0];

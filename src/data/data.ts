@@ -21,22 +21,22 @@ export interface TVSType {
   currentSize?: string;
   discountedPrice?: string;
 }
-const qcled =
-  "https://images.samsung.com/is/image/samsung/p6pim/pk/qa75q70cauxmm/gallery/pk-qled-q70c-qa75q70cauxmm-537262263";
-const qcled1 =
-  "https://images.samsung.com/is/image/samsung/p6pim/pk/qa75q70cauxmm/gallery/pk-qled-q70c-qa75q70cauxmm-537262264";
-const qcled3 =
-  "https://images.samsung.com/is/image/samsung/p6pim/pk/qa75q70cauxmm/gallery/pk-qled-q70c-qa75q70cauxmm-537262265";
-const qcled4 =
-  "https://images.samsung.com/is/image/samsung/p6pim/pk/qa75q70cauxmm/gallery/pk-qled-q70c-qa75q70cauxmm-537262278";
-const q80c2 =
-  "https://images.samsung.com/is/image/samsung/p6pim/pk/qa65q80cauxmm/gallery/pk-qled-q80c-qa65q80cauxmm-537262498";
-const qcled5 =
-  "https://images.samsung.com/is/image/samsung/p6pim/pk/qa55q70cauxmm/gallery/pk-qled-q70c-qa55q70cauxmm-537262226";
-const q80c =
-  "https://images.samsung.com/is/image/samsung/p6pim/pk/qa65q80cauxmm/gallery/pk-qled-q80c-qa65q80cauxmm-537262512";
-const q80c1 =
-  "https://images.samsung.com/is/image/samsung/p6pim/pk/qa65q80cauxmm/gallery/pk-qled-q80c-qa65q80cauxmm-537262497";
+// const qcled =
+//   "https://images.samsung.com/is/image/samsung/p6pim/pk/qa75q70cauxmm/gallery/pk-qled-q70c-qa75q70cauxmm-537262263";
+// const qcled1 =
+//   "https://images.samsung.com/is/image/samsung/p6pim/pk/qa75q70cauxmm/gallery/pk-qled-q70c-qa75q70cauxmm-537262264";
+// const qcled3 =
+//   "https://images.samsung.com/is/image/samsung/p6pim/pk/qa75q70cauxmm/gallery/pk-qled-q70c-qa75q70cauxmm-537262265";
+// const qcled4 =
+//   "https://images.samsung.com/is/image/samsung/p6pim/pk/qa75q70cauxmm/gallery/pk-qled-q70c-qa75q70cauxmm-537262278";
+// const q80c2 =
+//   "https://images.samsung.com/is/image/samsung/p6pim/pk/qa65q80cauxmm/gallery/pk-qled-q80c-qa65q80cauxmm-537262498";
+// const qcled5 =
+//   "https://images.samsung.com/is/image/samsung/p6pim/pk/qa55q70cauxmm/gallery/pk-qled-q70c-qa55q70cauxmm-537262226";
+// const q80c =
+//   "https://images.samsung.com/is/image/samsung/p6pim/pk/qa65q80cauxmm/gallery/pk-qled-q80c-qa65q80cauxmm-537262512";
+// const q80c1 =
+//   "https://images.samsung.com/is/image/samsung/p6pim/pk/qa65q80cauxmm/gallery/pk-qled-q80c-qa65q80cauxmm-537262497";
 const t325300 = "https://images.samsung.com/is/image/samsung/pk-hd-t4300-ua32t5300auxmm-frontblack-265965200"
 const t325300_1 = "https://images.samsung.com/is/image/samsung/pk-hd-t4300-ua32t5300auxmm-rperspectiveblack-265965188"
 const t325300_2 = "https://images.samsung.com/is/image/samsung/pk-hd-t4300-ua32t5300auxmm-lperspectiveblack-265965179"
