@@ -8,21 +8,53 @@ import { IoSearchSharp } from "react-icons/io5";
 import ResponsiveSearch from './ResponsiveSearch';
 
 const Header = () => {
-  const [showSearch, setShowSearch] = useState(false) // boolean
+  const [showSearch, setShowSearch] = useState(false)
 
   return (
     <div className='flex justify-between pl-20 pr-7 py-2 h-26 items-center'>
-      <Sidebar/>
+
+      <div className="sm:hidden">
+        <Sidebar />
+      </div>
+
+
       <Link href={'/'}>
         <h1 className='font-semibold text-xl'>JAFAR & SONS</h1>
       </Link>
-
+<div className='flex gap-6'>
       <div 
         onClick={()=>setShowSearch(true)} 
-        className='hidden cursor-pointer text-gray-700 items-center gap-1 sm:flex bg-gray-100 h-10 px-3 rounded-4xl'
+        className='hidden cursor-pointer text-gray-700 items-center gap-1 sm:flex bg-gray-100 h-10 px-7 rounded-4xl'
       >
         <IoSearchSharp className='text-2xl'/>
         <p className='cursor-pointer outline-none w-32'> Search</p>
+      </div>
+      <ul className='flex justify-center items-center gap-6'>
+      <li>
+      <Link  href="/" 
+      className="hidden sm:block text-xl">
+        Home
+      </Link>
+      </li>
+      <li>
+      <Link  href="/products" 
+      className="hidden sm:block  text-xl">
+        Products
+      </Link>
+      </li>
+      <li>
+      <Link  href="/about" 
+      className="hidden sm:block  text-xl">
+        About
+      </Link>
+      </li>
+        <li>
+        <Link  href="/contact" 
+        className="hidden sm:block  text-xl">
+          Contact
+        </Link>
+        </li>
+      </ul>
       </div>
 
       <div className='flex text-xl gap-5'>
@@ -34,7 +66,7 @@ const Header = () => {
           <FaRegHeart/>
         </Link>
         <Link href={'/cart'}>
-        <MdOutlineShoppingCart/>
+          <MdOutlineShoppingCart/>
         </Link>
       </div>
 

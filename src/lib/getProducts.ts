@@ -1,5 +1,5 @@
 export async function getProducts() {
-    const res = await fetch(`https://jafarandsons.vercel.app/api/products`, {
+    const res = await fetch(`${process.env.NEXT_PUBLIC_BASE_URL}/api/products`, {
       cache: 'no-store', // or 'force-cache' if it's static
     });
   

@@ -21,22 +21,22 @@ export interface TVSType {
   currentSize?: string;
   discountedPrice?: string;
 }
-// const qcled =
-//   "https://images.samsung.com/is/image/samsung/p6pim/pk/qa75q70cauxmm/gallery/pk-qled-q70c-qa75q70cauxmm-537262263";
-// const qcled1 =
-//   "https://images.samsung.com/is/image/samsung/p6pim/pk/qa75q70cauxmm/gallery/pk-qled-q70c-qa75q70cauxmm-537262264";
-// const qcled3 =
-//   "https://images.samsung.com/is/image/samsung/p6pim/pk/qa75q70cauxmm/gallery/pk-qled-q70c-qa75q70cauxmm-537262265";
-// const qcled4 =
-//   "https://images.samsung.com/is/image/samsung/p6pim/pk/qa75q70cauxmm/gallery/pk-qled-q70c-qa75q70cauxmm-537262278";
-// const q80c2 =
-//   "https://images.samsung.com/is/image/samsung/p6pim/pk/qa65q80cauxmm/gallery/pk-qled-q80c-qa65q80cauxmm-537262498";
-// const qcled5 =
-//   "https://images.samsung.com/is/image/samsung/p6pim/pk/qa55q70cauxmm/gallery/pk-qled-q70c-qa55q70cauxmm-537262226";
-// const q80c =
-//   "https://images.samsung.com/is/image/samsung/p6pim/pk/qa65q80cauxmm/gallery/pk-qled-q80c-qa65q80cauxmm-537262512";
-// const q80c1 =
-//   "https://images.samsung.com/is/image/samsung/p6pim/pk/qa65q80cauxmm/gallery/pk-qled-q80c-qa65q80cauxmm-537262497";
+const qcled =
+  "https://images.samsung.com/is/image/samsung/p6pim/pk/qa75q70cauxmm/gallery/pk-qled-q70c-qa75q70cauxmm-537262263";
+const qcled1 =
+  "https://images.samsung.com/is/image/samsung/p6pim/pk/qa75q70cauxmm/gallery/pk-qled-q70c-qa75q70cauxmm-537262264";
+const qcled3 =
+  "https://images.samsung.com/is/image/samsung/p6pim/pk/qa75q70cauxmm/gallery/pk-qled-q70c-qa75q70cauxmm-537262265";
+const qcled4 =
+  "https://images.samsung.com/is/image/samsung/p6pim/pk/qa75q70cauxmm/gallery/pk-qled-q70c-qa75q70cauxmm-537262278";
+const q80c2 =
+  "https://images.samsung.com/is/image/samsung/p6pim/pk/qa65q80cauxmm/gallery/pk-qled-q80c-qa65q80cauxmm-537262498";
+const qcled5 =
+  "https://images.samsung.com/is/image/samsung/p6pim/pk/qa55q70cauxmm/gallery/pk-qled-q70c-qa55q70cauxmm-537262226";
+const q80c =
+  "https://images.samsung.com/is/image/samsung/p6pim/pk/qa65q80cauxmm/gallery/pk-qled-q80c-qa65q80cauxmm-537262512";
+const q80c1 =
+  "https://images.samsung.com/is/image/samsung/p6pim/pk/qa65q80cauxmm/gallery/pk-qled-q80c-qa65q80cauxmm-537262497";
 const t325300 = "https://images.samsung.com/is/image/samsung/pk-hd-t4300-ua32t5300auxmm-frontblack-265965200"
 const t325300_1 = "https://images.samsung.com/is/image/samsung/pk-hd-t4300-ua32t5300auxmm-rperspectiveblack-265965188"
 const t325300_2 = "https://images.samsung.com/is/image/samsung/pk-hd-t4300-ua32t5300auxmm-lperspectiveblack-265965179"
@@ -106,7 +106,7 @@ export const TVS:TVSType[] = [
     ],
     slug: '32-fhd-smart-t5300',
     link: "/products/32-fhd-smart-t5300",
-    price: "RS: 89,999.00",
+    price: "Rs: 89,999.00",
     discountedPrice: "RS: 74,999.00",
     tags: ["T5300", "32", "samsung", "Full HD", "smart tv", "budget tv"],
     sizes: [{ size: "32", slug: "32-fhd-smart-t5300" },
@@ -140,7 +140,7 @@ export const TVS:TVSType[] = [
     ],
     slug: '43-fhd-smart-t5300',
     link: "/products/43-fhd-smart-t5300",
-    price: "RS: 119,999.00",
+    price: "Rs: 119,999.00",
     discountedPrice: "RS: 99,999.00",
     tags: ["T5300", "43", "samsung", "Full HD", "smart tv", "top rated"],
     sizes: [
@@ -178,7 +178,7 @@ export const TVS:TVSType[] = [
     ],
     slug: '43-uhd-4k-du7000',
     link: "/products/43-uhd-4k-du7000",
-    price: "RS: 154,999.00",
+    price: "Rs: 154,999.00",
     discountedPrice: "RS: 134,999.00",
     tags: ["DU7000", "43", "samsung", "4K UHD", "smart tv", "2024 model", "top rated"],
     sizes: [
@@ -217,7 +217,7 @@ export const TVS:TVSType[] = [
     ],
     slug: '50-uhd-4k-du7000',
     link: "/products/50-uhd-4k-du7000",
-    price: "RS: 173,999.00",
+    price: "Rs: 173,999.00",
     discountedPrice: "RS: 160,000.00",
     tags: ["DU7000", "50", "samsung", "4K UHD", "smart tv", "2024 model"],
     sizes: [
@@ -258,7 +258,7 @@ export const TVS:TVSType[] = [
     ],
     slug: '55-crystal-uhd-4k-du7000',
     link: "/products/55-crystal-uhd-4k-du7000",
-    price: "RS: 189,900.00",
+    price: "Rs: 189,900.00",
     discountedPrice: "RS: 169,999.00",
     tags: ["DU7000", "55", "samsung", "4K UHD", "smart tv", "2024 model"],
     sizes: [
@@ -300,7 +300,7 @@ export const TVS:TVSType[] = [
     ],
     slug: '65-crystal-uhd-4k-du7000',
     link: "/products/65-crystal-uhd-4k-du7000",
-    price: "RS: 254,999.00",
+    price: "Rs: 254,999.00",
     discountedPrice: "RS: 239,999.00",
     tags: ["DU7000", "65", "samsung", "4K UHD", "smart tv", "2024 model"],
     sizes: [
@@ -342,7 +342,7 @@ export const TVS:TVSType[] = [
     ],
     slug: '75-crystal-uhd-4k-du7000',
     link: "/products/75-crystal-uhd-4k-du7000",
-    price: "RS: 399,999.00",
+    price: "Rs: 399,999.00",
     discountedPrice: "RS: 379,999.00",
     tags: ["DU7000", "75", "samsung", "4K UHD", "smart tv", "2024 model"],
     sizes: [
@@ -384,7 +384,7 @@ export const TVS:TVSType[] = [
   ],
   "slug": "50-crystal-uhd-4k-du8000",
   "link": "/products/50-crystal-uhd-4k-du8000",
-  "price": "RS: 234,999.00",
+  "price": "Rs: 234,999.00",
   "discountedPrice": "RS:  169,999.00",
   "tags": ["DU8000", "50", "samsung", "4K UHD", "smart tv", "2024 model"],
   "sizes": [
@@ -426,7 +426,7 @@ export const TVS:TVSType[] = [
   ],
   "slug": "55-crystal-uhd-4k-du8000",
   "link": "/products/55-crystal-uhd-4k-du8000",
-  "price": "RS: 264,999.00",
+  "price": "R: 264,999.00",
   "discountedPrice": "RS: 249,999.00",
   "tags": ["DU8000", "55", "samsung", "4K UHD", "smart tv", "2024 model"],
   "sizes": [
@@ -468,7 +468,7 @@ export const TVS:TVSType[] = [
   ],
   "slug": "65-crystal-uhd-4k-du8000",
   "link": "/products/65-crystal-uhd-4k-du8000",
-  "price": "RS: 324,999.00",
+  "price": "Rs: 324,999.00",
   "discountedPrice": "RS: 309,999.00",
   "tags": ["DU8000", "65", "samsung", "4K UHD", "smart tv", "2024 model"],
   "sizes": [
@@ -511,7 +511,7 @@ export const TVS:TVSType[] = [
   ],
   "slug": "85-crystal-uhd-4k-du8000",
   "link": "/products/85-crystal-uhd-4k-du8000",
-  "price": "RS: 519,999.00",
+  "price": "Rs: 519,999.00",
   "discountedPrice": "RS: 489,999.00",
   "tags": ["DU8000", "85", "samsung", "4K UHD", "smart tv", "2024 model", "120Hz", "gaming"],
   "sizes": [
@@ -550,7 +550,7 @@ export const TVS:TVSType[] = [
   ],
   "slug": "55-qled-4k-q60d",
   "link": "/products/55-qled-4k-q60d",
-  "price": "RS: 384,999.00",
+  "price": "Rs: 384,999.00",
   "discountedPrice": "RS: 359,999.00",
   "tags": ["Q60D", "QLED", "55", "samsung", "4K", "HDR", "smart tv", "2024 model", "new arrival"],
   "sizes": [
@@ -587,7 +587,7 @@ export const TVS:TVSType[] = [
   ],
   "slug": "65-qled-4k-q60d",
   "link": "/products/65-qled-4k-q60d",
-  "price": "RS: 429,999.00",
+  "price": "Rs: 429,999.00",
   "discountedPrice": "RS: 409,999.00",
   "tags": ["Q60D", "QLED", "65", "samsung", "4K", "HDR", "smart tv", "2024 model", "new arrival"],
   "sizes": [
@@ -625,7 +625,7 @@ export const TVS:TVSType[] = [
   ],
   "slug": "55-qled-4k-q70d",
   "link": "/products/55-qled-4k-q70d",
-  "price": "RS: 474,999.00",
+  "price": "Rs: 474,999.00",
   "discountedPrice": "RS: 449,999.00",
   "tags": ["Q70D", "QLED", "55", "samsung", "4K", "HDR", "120Hz", "gaming", "smart tv", "2024 model", "new arrival", "top"],
   "sizes": [
@@ -665,7 +665,7 @@ export const TVS:TVSType[] = [
   ],
   "slug": "65-qled-4k-q70d",
   "link": "/products/65-qled-4k-q70d",
-  "price": "RS: 569,999.00",
+  "price": "Rs: 569,999.00",
   "discountedPrice": "RS: 549,999.00",
   "tags": ["Q70D", "QLED", "65", "samsung", "4K", "HDR", "120Hz", "gaming", "smart tv", "2024 model", "new arrival", "top"],
   "sizes": [
@@ -705,7 +705,7 @@ export const TVS:TVSType[] = [
   ],
   "slug": "75-qled-4k-q70d",
   "link": "/products/75-qled-4k-q70d",
-  "price": "RS: 674,999.00",
+  "price": "Rs: 674,999.00",
   "discountedPrice": "RS: 639,999.00",
   "tags": ["Q70D", "QLED", "75", "samsung", "4K", "HDR", "120Hz", "gaming", "smart tv", "2024 model", "new arrival", "top"],
   "sizes": [
@@ -745,7 +745,7 @@ export const TVS:TVSType[] = [
   ],
   "slug": "85-qled-4k-q70d",
   "link": "/products/85-qled-4k-q70d",
-  "price": "RS: 674,999.00",
+  "price": "Rs: 674,999.00",
   "discountedPrice": "RS: 639,999.00",
   "tags": ["Q70D", "QLED", "85", "samsung", "4K", "HDR", "120Hz", "gaming", "smart tv", "2024 model", "new arrival", "top"],
   "sizes": [
@@ -787,7 +787,7 @@ export const TVS:TVSType[] = [
   ],
   "slug": "65-qled-4k-q80d",
   "link": "/products/65-qled-4k-q80d",
-  "price": "RS: 579,999.00",
+  "price": "Rs: 579,999.00",
   "discountedPrice": "RS: 549,999.00",
   "tags": ["Q80D", "QLED", "65", "samsung", "4K", "HDR", "120Hz", "gaming", "smart tv", "2024 model","recommened", "new arrival", "top"],
   "sizes": [
@@ -827,7 +827,7 @@ export const TVS:TVSType[] = [
   ],
   "slug": "75-qled-4k-q80d",
   "link": "/products/75-qled-4k-q80d",
-  "price": "RS: 799,999.00",
+  "price": "Rs: 799,999.00",
   "discountedPrice": "RS: 749,999.00",
   "tags": ["Q80D", "QLED", "75", "samsung", "4K", "HDR", "120Hz", "gaming", "smart tv", "2024 model", "recommened", "new arrival", "top product"],
   "sizes": [
@@ -866,7 +866,7 @@ export const TVS:TVSType[] = [
   ],
   "slug": "55-qled-4k-ls03d",
   "link": "/products/55-qled-4k-ls03d",
-  "price": "RS: 479,999.00",
+  "price": "Rs: 479,999.00",
   "discountedPrice": "RS: 449,999.00",
   "tags": ["LS03D", "The Frame", "QLED", "55", "samsung", "4K", "HDR", "Art Mode", "smart tv", "2024 model", "recommended", "new arrival", "top"],
   "sizes": [
@@ -905,7 +905,7 @@ export const TVS:TVSType[] = [
   ],
   "slug": "65-qled-4k-ls03d",
   "link": "/products/65-qled-4k-ls03d",
-  "price": "RS: 619,999.00",
+  "price": "Rs: 619,999.00",
   "discountedPrice": "RS: 589,999.00",
   "tags": ["LS03D", "The Frame", "QLED", "65", "samsung", "4K", "HDR", "Art Mode", "smart tv", "2024 model", "recommended", "new arrival", "top product" ],
   "sizes": [
@@ -945,7 +945,7 @@ export const TVS:TVSType[] = [
   ],
   "slug": "65-oled-4k-s90d",
   "link": "/products/65-oled-4k-s90d",
-  "price": "RS: 759,999.00",
+  "price": "Rs: 759,999.00",
   "discountedPrice": "RS: 719,999.00",
   "tags": ["S90D", "OLED", "65", "samsung", "4K", "HDR", "144Hz", "gaming", "smart tv", "2024 model", "recommended", "new arrival", "top product", "main"],
   "sizes": [

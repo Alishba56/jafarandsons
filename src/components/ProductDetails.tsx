@@ -11,19 +11,19 @@ const ProductDetails = ({product}: {product:TVSType}) => {
   const [selectedImage, setSelectedImage] = useState(product.images[0])
   return (
     <>
-    <div className='max-w-7xl mx-auto flex items-center '>
-      <div className='flex gap-5 w-[550px]'>
-        <div className='space-y-4'>
+    <div className='max-w-7xl  mx-auto flex flex-wrap items-center justify-center gap-y-5 px-2 '>
+      <div className='flex gap-5 flex-col-reverse md:flex-row w-[550px]'>
+        <div className='space-y-4 md:flex-col flex justify-between w-[100px] gap-2  h-[100px] '>
             {product.images.map((item, index) => (
-                <Image src={item} onClick={()=>setSelectedImage(item)} alt='Product' height={100} width={100} key={index} className={` border border-gray-500 p-4 cursor-pointer ${item !== selectedImage && 'opacity-50'}`}/>
+                <Image src={item} onClick={()=>setSelectedImage(item)} alt='Product' height={100} width={100} key={index} className={` border border-gray-500 sm:p-4 cursor-pointer h-[100px] w-[100px] object-contain  ${item !== selectedImage && 'opacity-50'}`}/>
             ))}
         </div>
         <Image src={selectedImage} alt={product.title} height={400} width={400} className='object-contain'/>
       </div>
-      <div className='space-y-5 w-[700px]'>
+      <div className='space-y-5 w-[700px] px-2'>
         <h3 className='font-bold text-3xl'>{product.title}</h3>
-        <p className='text-gray-600 w-[80%]'>{product.description}</p>
-        <h4 className='font-semibold text-2xl'>{product.discountedPrice} <span className='text-gray-400 line-through mx-2'>{product.price}</span></h4>
+        <p className='text-gray-600 sm:w-[80%]'>{product.description}</p>
+        <h4 className='font-semibold  text-2xl flex flex-col'>{product.discountedPrice} <span className='text-gray-400 line-through'>{product.price}</span></h4>
         <div className='flex gap-4'>
           {product.sizes?.map((size, index) => (
             <Link key={index} href={`/products/${size.slug}`}>
@@ -33,7 +33,7 @@ const ProductDetails = ({product}: {product:TVSType}) => {
             </Link>
           ))}
         </div>
-        <div className='flex gap-5'>
+        <div className='flex flex-wrap-reverse gap-5'>
         <WishListComponent id={product.id} from='ProductDetails' />
         <CartButton id={product.id.toString()} size={(product.currentSize as string)} price={(product.discountedPrice as string)}   />
         </div>

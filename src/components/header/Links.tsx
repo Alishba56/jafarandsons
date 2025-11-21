@@ -23,7 +23,7 @@ closed: {
 }
 }
 const Links = () => {
-  const items = [{title:"Homepage", link:'/'}, {title:"Products", link:'/products'}, {title:"cart", link:'/cart'}, {title:"Contact", link:'/contact'}]
+  const items = [{title:"Homepage", link:'/'}, {title:"Products", link:'/products'},  {title:"Contact", link:'contact/'}, {title:"About", link:'about/'}]
   return (
     <motion.div className="flex flex-col justify-center h-[100%] items-center text-2xl" variants={variants}>{items.map(item =>(
       <motion.a href={`${item.link}`} key={item.link} variants={itemVariants} whileHover={{scale: 1.1}} whileTap={{scale: 0.95}}>{item.title}</motion.a>

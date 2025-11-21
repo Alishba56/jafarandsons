@@ -29,7 +29,7 @@ const Sidebar = () => {
     setIsOpen(!isOpen);
   };
   return (
-    <div className="fixed ">
+    <div className="fixed sm:hidden z-30">
       <IoMenu
         onClick={openMenu}
         className="bg-white h-10 w-10 p-1 fixed z-20 left-7 top-8 cursor-pointer rounded-full text-3xl"
