@@ -7,6 +7,14 @@ const nextConfig: NextConfig = {
         protocol: 'https',
         hostname: 'images.samsung.com',
       },
+      {
+        protocol: 'https',
+        hostname: 'www.lg.com',
+      },
+      {
+        protocol: 'https',
+        hostname: 'media.us.lg.com',
+      },
     ],
   },
 };

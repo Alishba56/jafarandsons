@@ -18,7 +18,7 @@ const ProductCard = ({ product }: { product: TVSType }) => {
         relative bg-gray-100 rounded-lg overflow-hidden shadow-sm hover:shadow-md 
         transition-shadow 
         w-full xs:w-[160px] sm:w-[260px] md:w-[300px]
-        h-[370px] flex flex-col justify-between
+         flex flex-col justify-between
       "
     >
       {/* Wishlist Icon */}
@@ -31,7 +31,7 @@ const ProductCard = ({ product }: { product: TVSType }) => {
           alt={product.title}
           width={300}
           height={300}
-          className="object-contain max-h-full"
+          className="object-contain h-[300px] w-[300px] "
         />
       </div>
 

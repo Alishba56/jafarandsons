@@ -45,6 +45,7 @@ const data =  [
   {
     "id": 1025,
     "title": "LG 100\" QNED evo AI QNED86 4K Mini-LED Smart TV (2025)",
+    "brand": "lg",
     "pickup": [
       "Massive 100-inch 4K Mini-LED display with Dynamic QNED Color and Precision Dimming for vivid contrast.",
       "α8 AI Processor Gen2 enhances visuals and sound; supports 120 Hz native (VRR up to 144 Hz) for ultra-smooth motion."
