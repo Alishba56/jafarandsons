@@ -25,7 +25,7 @@ const ProductCard = ({ product }: { product: TVSType }) => {
       <WishListComponent id={product.id} from='' />
 
       {/* Image Section */}
-      <div className="px-3 sm:px-6 flex justify-center items-center h-40  sm:h-56 md:h-60">
+      <Link href={`/products/${product.slug}`} className="px-3 sm:px-6 flex justify-center items-center h-40  sm:h-56 md:h-60">
         <Image
           src={product.images[0]}
           alt={product.title}
@@ -33,13 +33,15 @@ const ProductCard = ({ product }: { product: TVSType }) => {
           height={300}
           className="object-contain h-[300px] w-[300px] "
         />
-      </div>
+      </Link>
 
       {/* Info Section */}
       <div className="px-3 sm:px-4 pb-4 bg-gray-100 text-center">
+        <Link href={`/products/${product.slug}`}>
         <h3 className="text-sm sm:text-md md:text-lg font-semibold text-gray-800 pb-2 line-clamp-2">
           {product.title}
         </h3>
+        </Link>
 
         <p className="text-base sm:text-lg md:text-xl font-bold text-gray-900 mb-3">
           {product.price}

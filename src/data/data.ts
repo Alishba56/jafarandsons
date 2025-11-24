@@ -119,7 +119,9 @@ const S40Tfront_view = "https://media.us.lg.com/transform/ecomm-PDPGallery-1100x
 const S40Tside_view = "https://media.us.lg.com/transform/ecomm-PDPGalleryThumbnail-350x350/460547f9-dce4-4786-ba92-33edbf3aba60/AV_S40T_gallery_6_2048x1152?io=transform:fill,width:94";
 const S40Tdimensional_view = "https://media.us.lg.com/transform/ecomm-PDPGallery-1100x730/21c3a578-ef80-4729-83d9-7096e384fe3d/AV_S40T_gallery_4_2048x2048?io=transform:fill,width:596";
 const S40Trear_view = "https://media.us.lg.com/transform/ecomm-PDPGalleryThumbnail-350x350/fdace978-6418-48ca-bf03-a594965a8773/AV_S40T_gallery_8_2048x1152?io=transform:fill,width:94";
-
+const C6K1 = "https://www.tclpakistan.com/media/catalog/product/cache/a137e1ac4365a617ecc1b5aba9f2e92b/f/r/front_8.png"
+const C6K2 = "https://www.tclpakistan.com/media/catalog/product/cache/a137e1ac4365a617ecc1b5aba9f2e92b/c/6/c6k-product-picture-right.jpg"
+const C6K3 = "https://www.tclpakistan.com/media/catalog/product/cache/a137e1ac4365a617ecc1b5aba9f2e92b/c/6/c6k-product-picture-left.jpg"
 
 export const TVS:TVSType[] = [
   
@@ -2001,11 +2003,159 @@ export const TVS:TVSType[] = [
   ],
   "currentSize": "-"
 },
-
-
-
-
-
-];
+{
+  "id": 2050,
+  "title": "TCL 50\" C6K QD-Mini LED 4K Google TV (2024)",
+  "brand": "tcl",
+  "pickup": [
+    "QD-Mini LED display with enhanced brightness and contrast.",
+    "AiPQ Pro 4K Processor ensures optimized picture and color accuracy."
+  ],
+  "description": "The TCL 50C6K QD-Mini LED TV delivers high brightness, Quantum Dot colors, and superior contrast with Mini LED local dimming. It supports Dolby Vision, HDR10+, 144Hz VRR, and Google TV for smooth performance and immersive visuals.",
+  "images": [C6K1, C6K2, C6K3],
+  "features": [
+    { "key": "Display Type", "value": "QD-Mini LED" },
+    { "key": "Resolution", "value": "3840 × 2160 (4K UHD)" },
+    { "key": "Refresh Rate", "value": "144 Hz" },
+    { "key": "HDR Support", "value": "Dolby Vision, HDR10+" },
+    { "key": "Processor", "value": "AiPQ Pro Processor" },
+    { "key": "Gaming", "value": "144Hz VRR, ALLM, FreeSync" },
+    { "key": "Audio", "value": "Onkyo 2.1 Channel" },
+    { "key": "OS", "value": "Google TV" },
+    { "key": "VESA Mount", "value": "200 × 200 mm" }
+  ],
+  "slug": "50-c6k-qd-mini-led",
+  "link": "/products/50-c6k-qd-mini-led",
+  "price": "PKR: 165,900",
+  "discountedPrice": "PKR: 159,000",
+  "tags": ["TCL", "C6K", "50-inch", "QD-Mini LED", "Google TV", "144Hz"],
+  "currentSize": "50"
+},
+{
+  "id": 2051,
+  "title": "TCL 55\" C6K QD-Mini LED 4K Google TV (2024)",
+  "brand": "tcl",
+  "pickup": [
+    "Quantum Dot Pro Color enhances accuracy and vividness.",
+    "Mini LED backlight delivers deep contrast and brightness control."
+  ],
+  "description": "The TCL 55C6K is a premium QD-Mini LED TV offering vibrant color, strong brightness, and high-performance local dimming. It includes Dolby Vision, HDR10+, 144Hz gaming support, and Google TV with hands-free voice control.",
+  "images": [C6K1, C6K2, C6K3],
+  "features": [
+    { "key": "Display Type", "value": "QD-Mini LED" },
+    { "key": "Refresh Rate", "value": "144 Hz" },
+    { "key": "HDR", "value": "Dolby Vision, HDR10+" },
+    { "key": "Processor", "value": "AiPQ Pro Processor" },
+    { "key": "Gaming", "value": "144Hz VRR, ALLM" },
+    { "key": "Audio", "value": "Onkyo 2.1" },
+    { "key": "OS", "value": "Google TV" },
+    { "key": "VESA Mount", "value": "300 × 300 mm" }
+  ],
+  "slug": "55-c6k-qd-mini-led",
+  "link": "/products/55-c6k-qd-mini-led",
+  "price": "PKR: 188,500",
+  "discountedPrice": "PKR: 179,000",
+  "tags": ["TCL", "C6K", "55-inch", "Mini LED", "144Hz", "Google TV"],
+  "currentSize": "55"
+},
+{
+  "id": 2052,
+  "title": "TCL 65\" C6K QD-Mini LED 4K Google TV (2024)",
+  "brand": "tcl",
+  "pickup": [
+    "Large 65-inch QD-Mini LED panel with powerful local dimming zones.",
+    "144Hz Motion Clarity Pro delivers extremely smooth motion."
+  ],
+  "description": "The TCL 65C6K QD-Mini LED TV features deep blacks, exceptional brightness, and stunning color accuracy. With Dolby Vision, HDR10+, 144Hz VRR, and Onkyo 2.1 sound, it is ideal for movies, gaming, and home entertainment.",
+  "images": [C6K1, C6K2, C6K3],
+  "features": [
+    { "key": "Display Type", "value": "QD-Mini LED" },
+    { "key": "Refresh Rate", "value": "144 Hz" },
+    { "key": "HDR Format", "value": "Dolby Vision, HDR10+" },
+    { "key": "Processor", "value": "AiPQ Pro" },
+    { "key": "Gaming", "value": "144Hz VRR, FreeSync" },
+    { "key": "OS", "value": "Google TV" },
+    { "key": "VESA Mount", "value": "300 × 300 mm" }
+  ],
+  "slug": "65-c6k-qd-mini-led",
+  "link": "/products/65-c6k-qd-mini-led",
+  "price": "PKR: 257,500",
+  "discountedPrice": "PKR: 245,000",
+  "tags": ["TCL", "C6K", "65-inch", "Mini LED", "144Hz"],
+  "currentSize": "65"
+},
+{
+  "id": 2053,
+  "title": "TCL 75\" C6K QD-Mini LED 4K Google TV (2024)",
+  "brand": "tcl",
+  "pickup": [
+    "Massive 75-inch cinematic Mini LED display.",
+    "Dolby Vision IQ + 144Hz VRR ensure premium movie and gaming performance."
+  ],
+  "description": "The TCL 75C6K brings a huge QD-Mini LED panel with advanced dimming, strong brightness, and exceptional 4K clarity. Perfect for home theaters with 144Hz gaming, Dolby Atmos, and Google TV.",
+  "images": [C6K1, C6K2, C6K3],
+  "features": [
+    { "key": "Display Type", "value": "QD-Mini LED" },
+    { "key": "Refresh Rate", "value": "144 Hz" },
+    { "key": "HDR", "value": "Dolby Vision, HDR10+" },
+    { "key": "Audio", "value": "Onkyo 2.1 Surround" },
+    { "key": "OS", "value": "Google TV" },
+    { "key": "VESA Mount", "value": "400 × 300 mm" }
+  ],
+  "slug": "75-c6k-qd-mini-led",
+  "link": "/products/75-c6k-qd-mini-led",
+  "price": "PKR: 379,900",
+  "discountedPrice": "PKR: 365,000",
+  "tags": ["TCL", "C6K", "75-inch", "Mini LED", "144Hz"],
+  "currentSize": "75"
+},
+{
+  "id": 2054,
+  "title": "TCL 85\" C6K QD-Mini LED 4K Google TV (2024)",
+  "brand": "tcl",
+  "pickup": [
+    "Ultra-large 85-inch QD-Mini LED for premium home cinema.",
+    "Bright, vibrant Quantum Dot colors powered by AiPQ Pro."
+  ],
+  "description": "The TCL 85C6K is a performance-packed Mini LED TV built for large rooms and home theater setups. It offers high brightness, deep contrast, Dolby Vision, Dolby Atmos, and next-level gaming with 144Hz VRR.",
+  "images": [C6K1, C6K2, C6K3],
+  "features": [
+    { "key": "Display Type", "value": "QD-Mini LED" },
+    { "key": "Refresh Rate", "value": "144 Hz" },
+    { "key": "HDR Support", "value": "Dolby Vision, HDR10+" },
+    { "key": "Audio", "value": "Onkyo 2.1 Channel" },
+    { "key": "VESA Mount", "value": "600 × 400 mm" }
+  ],
+  "slug": "85-c6k-qd-mini-led",
+  "link": "/products/85-c6k-qd-mini-led",
+  "price": "PKR: 643,900",
+  "discountedPrice": "PKR: 620,000",
+  "tags": ["TCL", "C6K", "85-inch", "Mini LED", "Google TV"],
+  "currentSize": "85"
+},
+{
+  "id": 2055,
+  "title": "TCL 98\" C6K QD-Mini LED 4K Google TV (2024)",
+  "brand": "tcl",
+  "pickup": [
+    "Giant 98-inch QD-Mini LED panel for wall-sized cinema experience.",
+    "High brightness with precise Mini LED dimming for exceptional contrast."
+  ],
+  "description": "The TCL 98C6K is a flagship large-format QD-Mini LED TV delivering theater-level visuals at home. With Dolby Vision, HDR10+, 144Hz VRR gaming, and Google TV, it offers extraordinary clarity and performance.",
+  "images": [C6K1, C6K2, C6K3],
+  "features": [
+    { "key": "Display Type", "value": "QD-Mini LED" },
+    { "key": "Refresh Rate", "value": "144 Hz" },
+    { "key": "HDR", "value": "Dolby Vision, HDR10+" },
+    { "key": "Processor", "value": "AiPQ Pro" },
+    { "key": "VESA Mount", "value": "800 × 400 mm" }
+  ],
+  "slug": "98-c6k-qd-mini-led",
+  "link": "/products/98-c6k-qd-mini-led",
+  "price": "PKR: 899,999",
+  "discountedPrice": "PKR: 870,000",
+  "tags": ["TCL", "C6K", "98-inch", "Home Cinema", "QD-Mini LED"],
+  "currentSize": "98"
+}];
 
 

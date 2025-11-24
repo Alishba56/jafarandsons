@@ -1,9 +1,10 @@
+import Link from "next/link";
 import React from "react";
 
 const categories = [
-  { name: "Smart TVS", icon: "TCL" },
-  { name: "Smart TVS & Phones", icon: "SAMSUNG" },
-  { name: "Smart TVS & Sound System", icon: "LG" },
+  { name: "Smart TVS", icon: "TCL", link: "/products/brands/tcl" },
+  { name: "Smart TVS & Phones", icon: "SAMSUNG", link: "/products/brands/samsung" },
+  { name: "Smart TVS & Sound System", icon: "LG", link: "/products/brands/lg" },
   
 ];
 
@@ -15,13 +16,14 @@ const Brands = () => {
 
       <div className="flex flex-wrap gap-4 justify-evenly w-full mt-5 ">
         {categories.map((category, index) => (
+          <Link href={category.link} key={index}>
           <div
-            key={index}
             className="cursor-pointer py-10 flex flex-col items-center justify-center w-52  bg-gray-100 rounded-md shadow-md hover:shadow-lg"
           >
             <h1 className="text-2xl">{category.icon}</h1>
             <p className="text-center text-sm mt-2 text-gray-600">{category.name}</p>
           </div>
+          </Link>
         ))}
       </div>
 

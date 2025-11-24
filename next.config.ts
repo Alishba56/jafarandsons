@@ -15,6 +15,10 @@ const nextConfig: NextConfig = {
         protocol: 'https',
         hostname: 'media.us.lg.com',
       },
+      {
+        protocol: 'https',
+        hostname: 'www.tclpakistan.com',
+      }
     ],
   },
 };
