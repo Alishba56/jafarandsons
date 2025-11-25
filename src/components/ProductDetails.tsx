@@ -13,7 +13,7 @@ const ProductDetails = ({product}: {product:TVSType}) => {
     <>
     <div className='max-w-7xl  mx-auto flex flex-wrap items-center justify-center gap-y-5 px-2 '>
       <div className='flex gap-5 flex-col-reverse w-full md:flex-row sm:w-[550px]'>
-        <div className='space-y-4 md:flex-col flex justify-between w-full overflow-x-scroll overflow-y-hidden  gap-2  h-[100px]  '>
+        <div className='space-y-4 md:flex-col flex justify-between w-full h-full overflow-x-scroll sm:overflow-x-hidden sm:overflow-y-hidden  gap-2   '>
             {product.images.map((item, index) => (
                 <Image src={item} onClick={()=>setSelectedImage(item)} alt='Product' height={100} width={100} key={index} className={` border border-gray-500 sm:p-4 cursor-pointer h-[100px] w-[100px] object-contain  ${item !== selectedImage && 'opacity-50'}`}/>
             ))}
