@@ -80,7 +80,7 @@ Price: Rs ${parsePrice(p.discountedPrice as string).toLocaleString()}`;
     const message = `*🧾 New Order Received!*\n\n👤 *Customer:* ${formData.firstName} ${formData.lastName}\n📞 *Phone:* ${formData.phone}\n🏠 *Address:* ${formData.address}, ${formData.city}\n\n${orderDetails}\n\n━━━━━━━━━━━━━━━━━━\n💰 *Total:* Rs ${total.toLocaleString()}\n━━━━━━━━━━━━━━━━━━\n\nThank you for shopping with us! 🖤`;
 
     // Your WhatsApp number (replace with your own)
-    const phoneNumber = "+923452271719"; // Example: 923331112222
+    const phoneNumber = "+923249236634"; // Example: 923331112222
 
     // Open WhatsApp chat
 const whatsappURL = `https://api.whatsapp.com/send?phone=${phoneNumber}&text=${encodeURIComponent(message)}`;
